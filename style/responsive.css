@@ -1,0 +1,126 @@
+@media (max-width: 1180px) {
+  nav .menu {
+    display: none;
+  }
+
+  nav .menu-toggle {
+    display: block;
+    padding: 0 24px;
+    font-size: 36px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .jumbotron {
+    padding: 0 32px;
+    background-position: 39% 50%;
+    min-height: 1000px;
+  }
+
+  #category {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .card img {
+    height: 400px;
+  }
+
+  .card:hover {
+    height: 450px;
+  }
+
+  .card .content {
+    width: 100%;
+    left: 0;
+    top: 30px;
+    font-size: 32px;
+    z-index: 10;
+  }
+
+  .card:hover img.smartw {
+    left: 60%;
+    height: 500px;
+  }
+
+  .collection {
+    width: 50%;
+  }
+}
+
+@media (max-width: 670px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .container {
+    margin: auto;
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  nav .logo {
+    padding: 16px 12px;
+    text-align: center;
+  }
+
+  nav .logo img {
+    width: 80%;
+  }
+
+  nav .menu {
+    display: none;
+  }
+
+  nav .menu-toggle {
+    display: block;
+    padding: 0 16px;
+    font-size: 24px;
+  }
+
+  .jumbotron {
+    padding: 0 12px;
+    background-position: right;
+    min-height: 100vh;
+  }
+
+  .jumbotron h2 {
+    font-size: 52px;
+  }
+
+  .jumbotron .harga-coret {
+    font-size: 28px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron button {
+    font-size: 28px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  .card:hover img.smartw {
+    height: 300px;
+    left: 45%;
+  }
+
+  .card:hover {
+    height: 280px;
+  }
+
+  .card .content {
+    font-size: 20px;
+  }
+}
