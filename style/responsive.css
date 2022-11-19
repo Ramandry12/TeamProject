@@ -49,8 +49,18 @@
     height: 500px;
   }
 
+  .card .circle::before {
+    clip-path: circle(1000px at center);
+  }
+
   .collection {
     width: 50%;
+  }
+
+  footer .container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 20px 100px 20px;
   }
 }
 
@@ -122,5 +132,22 @@
 
   .card .content {
     font-size: 20px;
+  }
+
+  .collection {
+    width: 100%;
+  }
+
+  #features .container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #features .container .feature {
+    width: 100%;
+  }
+
+  footer input[type="submit"] {
+    width: 30%;
   }
 }
